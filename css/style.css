@@ -18,11 +18,9 @@ a{
 *{
     cursor: url("../img/cur/Harry\ Potter\ Elder\ Wand--cursor--SweezyCursors.cur"), auto;
 }
-/* BOTÕES */
 button{
     cursor: url("../img/cur/Harry\ Potter\ Elder\ Wand--cursor--SweezyCursors.cur"), auto;
 }
-/* NAVBAR */
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -36,16 +34,12 @@ button{
     width: 100%;
     z-index: 1000;
 
-    /* TRANSPARÊNCIA */
     background: rgba(0, 0, 0, 0.35);
 
-    /* EFEITO VIDRO */
     backdrop-filter: blur(8px);
 
-    /* BORDA DOURADA */
     border-bottom: 2px solid #d4af37;
 
-    /* SOMBRA */
     box-shadow:
         0 0 10px rgba(212, 175, 55, 0.4),
         0 0 20px rgba(212, 175, 55, 0.2);
@@ -53,7 +47,6 @@ button{
     box-sizing: border-box;
 }
 
-/* LOGO */
 .logo{
     color: #f5d97b;
 
@@ -66,7 +59,6 @@ button{
         0 0 10px #d4af37;
 }
 
-/* MENU */
 .menu{
     display: flex;
     gap: 25px;
@@ -74,7 +66,6 @@ button{
     list-style: none;
 }
 
-/* LINKS */
 .menu a{
     color: white;
 
@@ -87,7 +78,6 @@ button{
     position: relative;
 }
 
-/* LINHA ANIMADA */
 .menu a::after{
     content: "";
 
@@ -103,7 +93,6 @@ button{
     transition: 0.3s;
 }
 
-/* HOVER */
 .menu a:hover{
     color: #f5d97b;
 
@@ -115,12 +104,10 @@ button{
 .menu a:hover::after{
     width: 100%;
 }
-/* DROPDOWN */
 .dropdown{
     position: relative;
 }
 
-/* MENU */
 .dropdown-menu{
     position: absolute;
 
@@ -148,12 +135,10 @@ button{
         0 0 20px rgba(212, 175, 55, 0.2);
 }
 
-/* ITENS */
 .dropdown-menu li{
     width: 100%;
 }
 
-/* LINKS */
 .dropdown-menu a{
     display: block;
 
@@ -166,7 +151,6 @@ button{
     transition: 0.3s;
 }
 
-/* HOVER */
 .dropdown-menu a:hover{
     background: rgba(212, 175, 55, 0.15);
 
@@ -178,11 +162,9 @@ button{
         0 0 5px #d4af37;
 }
 
-/* MOSTRAR MENU */
 .dropdown:hover .dropdown-menu{
     display: block;
 }
-/* CAIXA PRINCIPAL */
 .card{
     background: rgba(0, 0, 0, 0.55);
 
@@ -205,7 +187,6 @@ button{
     transition: 0.4s;
 }
 
-/* EFEITO AO PASSAR O MOUSE */
 .card:hover{
     transform: translateY(-5px);
 
@@ -236,7 +217,6 @@ button{
     transition: 0.4s;
 }
 
-/* HOVER NA IMAGEM */
 .img-magica:hover{
     transform: scale(1.03);
 
