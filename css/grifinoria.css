@@ -1,0 +1,49 @@
+.logoG{
+    width: 300px;
+}
+
+.grifinoria{
+    display: flex;
+    margin: 30px;
+    color: white;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+
+
+    img{
+        border-radius: 10px;
+    }
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+
+    h1{
+        font-size: 80px;
+        color: goldenrod;
+    }
+}
+
+.topic{
+    align-items: center;
+    justify-content: center;
+    color: white;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.coord{
+     border: 5px blue solid;
+}
+
+.fund{
+     border: 5px blue solid;
+}
+
+.cores{
+     border: 5px blue solid;
+}
