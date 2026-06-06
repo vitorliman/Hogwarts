@@ -4,11 +4,11 @@
 
 .body-grif {}
 
-.grifinoria {
+.sonserina {
   display: flex;
   margin: 30px;
   color: white;
-  gap: 40px;
+  gap: 30px;
   align-items: center;
   justify-content: center;
 
@@ -27,6 +27,7 @@
     font-size: 80px;
     color: #E5B80B;
     font-family: "Cinzel Decorative", serif;
+    text-align: center;
   }
 
   h2 {
