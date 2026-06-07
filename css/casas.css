@@ -1,0 +1,79 @@
+.logoG {
+  width: 300px;
+}
+
+.body-grif {}
+
+.sonserina {
+  display: flex;
+  margin: 30px;
+  color: white;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+
+
+  img {
+    border-radius: 10px;
+  }
+}
+.grifinoria {
+  display: flex;
+  margin: 30px;
+  color: white;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+
+
+  img {
+    border-radius: 10px;
+  }
+}
+
+.texto {
+  display: flex;
+  flex-direction: column;
+  width: 900px;
+
+  h1{
+    font-size: 80px;
+    color: #E5B80B;
+    font-family: "Cinzel Decorative", serif;
+  }
+
+  h2 {
+    color: #E5B80B;
+  }
+}
+
+.cards-three {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  padding: 12px 0;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  margin: 20px 0;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.card-text h4 {
+  font-size: 0.92rem;
+  margin: 0 0 2px;
+  color: #CD7F32;
+}
+
+.card-text p {
+  margin: 0;
+  font-size: 0.88rem;
+  color: #F5F1E1;
+}
