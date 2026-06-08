@@ -1,14 +1,25 @@
-.logoG {
-  width: 300px;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+body{
+  background: none;
+  background-color: #740001;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
 }
 
-.body-grif {}
+.logoG {
+  width: 500px;
+}
 
 .grifinoria {
   display: flex;
+  flex-direction: column;
   margin: 30px;
   color: white;
-  gap: 40px;
+  gap: 0px;
   align-items: center;
   justify-content: center;
 
@@ -26,7 +37,6 @@
   h1 {
     font-size: 80px;
     color: #E5B80B;
-    font-family: "Cinzel Decorative", serif;
   }
 
   h2 {
@@ -51,17 +61,53 @@
   padding: 12px;
   border: 1px solid #ddd;
   border-radius: 6px;
-  background: white;
 }
 
 .card-text h4 {
   font-size: 0.92rem;
   margin: 0 0 2px;
-  color: #CD7F32;
+  color: #EEBA30;
 }
 
 .card-text p {
   margin: 0;
   font-size: 0.88rem;
   color: #F5F1E1;
+}
+
+.imagem-minerva {
+  width: 170px;
+  object-fit: cover;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+.imagem-godrico {
+  width: 170px;
+  object-fit: cover;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+.imagem-cores {
+  width: 170px;
+  object-fit: cover;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+.papai-do-ano {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #E5B80B;
+  text-align: justify;
+}
+
+.traços-alunos {
+
+  width: 900px;
+    margin-bottom: 20px;
+
 }

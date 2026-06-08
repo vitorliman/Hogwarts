@@ -2,24 +2,13 @@ body{
     margin: 0;
     padding: 0;
 
-    padding-bottom: 40px;
     background: url(../img/fundo.webp);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 
     font-family: 'Georgia', serif;
-    cursor: url("../img/cur/Harry\ Potter\ Elder\ Wand--pointer--SweezyCursors.cur"), auto;
 
-}
-a{
-    cursor: url("../img/cur/Harry\ Potter\ Elder\ Wand--cursor--SweezyCursors.cur"), auto;
-}
-*{
-    cursor: url("../img/cur/Harry\ Potter\ Elder\ Wand--cursor--SweezyCursors.cur"), auto;
-}
-button{
-    cursor: url("../img/cur/Harry\ Potter\ Elder\ Wand--cursor--SweezyCursors.cur"), auto;
 }
 .navbar{
     display: flex;
@@ -53,6 +42,8 @@ button{
     font-size: 28px;
     font-weight: bold;
     letter-spacing: 2px;
+
+    width: 90px;
 
     text-shadow:
         0 0 5px #d4af37,
@@ -243,10 +234,7 @@ button{
 }
 
 .footer{
-    position: fixed;
 
-    bottom: 0;
-    left: 0;
 
     width: 100%;
 
