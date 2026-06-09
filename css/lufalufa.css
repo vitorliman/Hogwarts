@@ -1,16 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+
+
+body{
+  background: none;
+  background-color: #eeb939;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+}
+
 .logoG {
   width: 500px;
 }
 
-body {
-  background: none;
-  background-color: #1a472a;
-  font-family: "Poppins", sans-serif;
-}
-
-.sonserina {
+.lufa-lufa {
   display: flex;
   flex-direction: column;
   margin: 30px;
@@ -32,13 +36,11 @@ body {
 
   h1 {
     font-size: 80px;
-    color: #E5B80B;
-    font-family: "Cinzel Decorative", serif;
-    text-align: center;
+    color: #372e29;
   }
 
   h2 {
-    color: #aaaaaa;
+    color: #372e29;
   }
 }
 
@@ -64,7 +66,7 @@ body {
 .card-text h4 {
   font-size: 0.92rem;
   margin: 0 0 2px;
-  color: #aaaaaa
+  color: #eeb939;
 }
 
 .card-text p {
@@ -73,30 +75,25 @@ body {
   color: #F5F1E1;
 }
 
-.snape {
+.imagem-pomona {
   width: 170px;
   object-fit: cover;
   border-radius: 4px;
-
+  flex-shrink: 0;
 }
 
-.salazar {
+.imagem-helga {
   width: 170px;
   object-fit: cover;
   border-radius: 4px;
-
+  flex-shrink: 0;
 }
 
-.brasaosonserina {
+.imagem-cores {
   width: 170px;
   object-fit: cover;
   border-radius: 4px;
-
-}
-
-.descricao {
-  width: 900px;
-  margin-bottom: 20px;
+  flex-shrink: 0;
 }
 
 .papai-do-ano {
@@ -104,16 +101,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #aaaaaa;
+  color: #372e29;
   text-align: justify;
-  font-style: bold;
-  font-weight: 800;
-  font-size: 19px;
 }
 
-.logo {
+.traços-alunos {
 
-
-  width: 90px;
+  width: 900px;
+    margin-bottom: 20px;
 
 }
