@@ -111,3 +111,40 @@ body{
     margin-bottom: 20px;
 
 }
+
+.membros{
+  gap: 12px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h1{
+    text-align: center;
+    color: #EEBA30;
+  }
+}
+
+.membros-text{
+  text-align: center;
+  margin: 0;
+  font-size: 0.88rem;
+  color: #F5F1E1;
+
+}
+
+.imagem-dumbledore{
+  width: 200px;
+
+}
+
+.imagem-harry{
+  width: 200px;
+}
+
+.imagem-rony{
+  width: 200px;
+}
+
+.imagem-sirius{
+  width: 200px;
+}
