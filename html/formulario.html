@@ -29,8 +29,103 @@
     </ul>
   </nav>
 </header>
-<div>
 
+<div>
+  <div>
+    <form>
+
+        <!-- Dados pessoais -->
+        <fieldset>
+            <legend>Dados do Aluno</legend>
+
+            <label for="nome">Nome Completo:</label><br>
+            <input type="text" id="nome" name="nome" required><br><br>
+
+            <label for="nomePais">Nome dos Pais ou Responsáveis:</label><br>
+            <input type="text" id="nomePais" name="nomePais" required><br><br>
+
+            <label for="idade">Idade:</label><br>
+            <input type="number" id="idade" name="idade" min="11" required><br><br>
+
+            <label for="dataNascimento">Data de Nascimento:</label><br>
+            <input type="date" id="dataNascimento" name="dataNascimento" required><br><br>
+
+        </fieldset>
+
+        <br>
+
+        <!-- Carta de Hogwarts -->
+        <fieldset>
+            <legend>Carta de Hogwarts</legend>
+
+            <p>Você já recebeu sua carta de Hogwarts?</p>
+
+            <input type="radio" id="simCarta" name="carta" value="Sim" required>
+            <label for="simCarta">Sim</label>
+
+            <input type="radio" id="naoCarta" name="carta" value="Não">
+            <label for="naoCarta">Não</label>
+
+        </fieldset>
+
+        <br>
+
+        <!-- Perfil mágico -->
+        <fieldset>
+            <legend>Perfil Mágico</legend>
+
+            <label for="perfil">Perfil mágico:</label><br>
+            <select id="perfil" name="perfil" required>
+                <option value="">Selecione</option>
+                <option>Bruxo(a)</option>
+                <option>Trouxa</option>
+                <option>Nascido(a) Trouxa</option>
+                <option>Mestiço(a)</option>
+                <option>Sangue-Puro</option>
+            </select>
+
+            <br><br>
+
+            <label for="qualidade">
+                Qual destas qualidades melhor descreve você?
+            </label><br>
+
+            <select id="qualidade" name="qualidade" required>
+                <option value="">Selecione</option>
+                <option>Coragem</option>
+                <option>Inteligência</option>
+                <option>Lealdade</option>
+                <option>Ambição</option>
+            </select>
+
+            <br><br>
+
+            <label for="magia">
+                Você já praticou magia antes?
+            </label><br>
+
+            <textarea
+                id="magia"
+                name="magia"
+                rows="4"
+                cols="50"
+                placeholder="Conte sua experiência com magia..."
+            ></textarea>
+
+        </fieldset>
+
+        <br>
+
+        <button type="submit">Enviar Matrícula</button>
+
+    </form>
+<img class="form" src="../img/Hogwarts-4k-Wallpaper-For-PC.jpg" alt="">
+
+
+  </div>
+
+
+<div>
 <footer class="footer">
     <p>© 2026 Hogwarts | Projeto Escolar</p>
 </footer>
