@@ -10,10 +10,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     position: sticky;
     top: 0;
     z-index: 1000;
+
 
     width: 100%;
     padding: 18px 40px;
@@ -39,6 +39,7 @@ body {
     font-weight: bold;
     letter-spacing: 2px;
 
+
     text-shadow:
         0 0 5px #d4af37,
         0 0 10px #d4af37;
@@ -47,11 +48,13 @@ body {
 .menu {
     display: flex;
     gap: 25px;
+
     list-style: none;
 }
 
 .menu a {
     position: relative;
+
 
     color: white;
     text-decoration: none;
@@ -64,20 +67,17 @@ body {
 .menu a::after {
     content: "";
     position: absolute;
-
     left: 0;
     bottom: -5px;
 
     width: 0;
     height: 2px;
-
     background: #d4af37;
     transition: 0.3s;
 }
 
 .menu a:hover {
     color: #f5d97b;
-
     text-shadow:
         0 0 5px #d4af37,
         0 0 10px #d4af37;
@@ -225,7 +225,7 @@ body {
     margin: 0;
 
     text-align: center;
-    cursor: pointer;
+     cursor: pointer;
 
     transition: all 0.3s ease;
 }
@@ -283,7 +283,7 @@ body {
     color: #f5d97b;
     font-size: 14px;
 
-    background: url("../img/banner2.jpg") center / cover fixed;
+     background: url("../img/banner2.jpg") center / cover fixed;
     backdrop-filter: blur(5px);
 
     border-top: 2px solid #d4af37;
