@@ -2,7 +2,7 @@
 
 
 
-body{
+body {
   background: none;
   background-color: #740001;
   background-repeat: no-repeat;
@@ -108,17 +108,17 @@ body{
 .traços-alunos {
 
   width: 900px;
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 
 }
 
 
-h1{
-    text-align: center;
-    color: #EEBA30;
-  }
+h1 {
+  text-align: center;
+  color: #EEBA30;
+}
 
-.membros{
+.membros {
   gap: 30px;
   padding: 12px;
   display: flex;
@@ -127,27 +127,62 @@ h1{
   align-items: center;
 }
 
-.membro-card{
+.membro-card {
   text-align: center;
   margin: 0;
   font-size: 0.88rem;
-  color: #F5F1E1;
+  color: #EEBA30;
 
 }
 
-.imagem-dumbledore{
+.imagem-dumbledore {
   width: 200px;
+  border-radius: 4px;
+  padding: 5%;
+  border-bottom: solid #EEBA30 2px;
 
 }
 
-.imagem-harry{
+.imagem-harry {
   width: 200px;
+  border-radius: 4px;
+  padding: 5%;
+  border-bottom: solid #EEBA30 2px;
 }
 
-.imagem-rony{
+.imagem-rony {
   width: 200px;
+  border-radius: 4px;
+  padding: 5%;
+  border-bottom: solid #EEBA30 2px;
 }
 
-.imagem-sirius{
+.imagem-sirius {
   width: 200px;
+  border-radius: 4px;
+  padding: 5%;
+  border-bottom: solid #EEBA30 2px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.sala-comunal {
+  margin: 40px;
+  gap: 30px;
+  display: flex;
+  flex-direction: row;
+
+  img {
+    width: 700px;
+    border-radius: 8px;
+  }
+}
+
+.sala-text {
+  color: #EEBA30;
+  flex-direction: row;
+  width: 1000px;
+  text-align: center;
 }
